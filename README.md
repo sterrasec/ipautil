@@ -1,6 +1,6 @@
 # ipautil
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sterrasec/ipautil/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/sterrasec/ipautil/blob/main/LICENSE)
 
 `ipautil` is a useful utility for mobile security testing.
 This tool makes it easy to resign the IPA, check for potentially sensitive files and `Info.plist` in the IPA.
