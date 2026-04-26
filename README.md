@@ -10,7 +10,17 @@ I've only checked it works on macOS.
 Android version is [here](https://github.com/sterrasec/apkutil).
 
 ## Installation
-Since `ipautil` is implemented in Python, it can be installed with the pip command, which is a Python package management system.
+Since `ipautil` is implemented in Python, it can be installed with `uv`/`pip` command, which is a Python package management system.
+
+Using uv:
+
+```
+$ uv tool install git+ssh://git@github.com/sterrasec/ipautil.git
+```
+
+This repository includes `uv.toml` to exclude packages released within the last week during uv dependency resolution.
+
+Using pip:
 
 ```
 $ pip install git+ssh://git@github.com/sterrasec/ipautil.git
